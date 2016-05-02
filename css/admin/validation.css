@@ -1,0 +1,45 @@
+td.field input.error, td.field select.error, tr.errorRow td.field input,tr.errorRow td.field select {
+	border: 1px solid red;
+	background-color: #FFFFD5;	
+	color: red;
+	padding:2px;
+}
+
+.formError {
+	display: none;
+	color: #FF0000;
+}
+
+tr.errorRow td.field div.formError {
+	display: block;
+	font-weight: normal;
+}
+
+.error {
+	color: red;		
+}
+
+input.error{
+	background-color:#FFB7B7;	
+	border:1px solid #F00;
+	color:#fff;
+}
+
+textarea.error {
+	
+background-color:#FFB7B7;	
+	border:1px solid #F00;
+	color:#fff;	
+	
+}
+
+.main_error{
+	height:15px;	
+}
+
+div.error a {
+	color: #336699;	
+	text-decoration: underline
+}
+
+
